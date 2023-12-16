@@ -1,0 +1,101 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(202312-1700-2226-aa0179dd-0197-49a7-9e86-e449b4848aa3_1702758146.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    
+}
+
+.form-container {
+    width: 100%;
+    max-width: 300px;    
+    margin-left: 450px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    background:transparent;
+    padding: 25px;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    
+    
+}
+.form-container h2{
+    text-align: center;
+    color: rgb(252, 244, 244);
+}
+
+
+label {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin-top: 10px;
+    color: antiquewhite;
+    pointer-events: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+input{
+    width: 100%;
+    height: 50%;
+    color: antiquewhite;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    color: antiquewhite;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    outline: none;
+   
+}
+
+input[type="button"] {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    background-color: transparent;
+    transform: scale(1.1);
+    
+    background: rgb(207, 157, 157);
+    
+}
+
+input[type="button"]:hover {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(27, 26, 26);
+    padding: 10px 20px;
+    margin-top: 10px;
+   
+    cursor: pointer;
+    width: 100%;
+    background: rgb(207, 157, 157);
+   
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+}
+input::placeholder,
+select::placeholder {
+    color: #c2bfbf; 
+}
+
+
+@media screen and (max-width: 600px) {
+    .form-container {
+        max-width: 100%; 
+        margin: 0 10px; 
+    }
+}

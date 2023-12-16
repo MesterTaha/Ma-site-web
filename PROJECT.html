@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compattible" content="IE=edge">
+    <title>Ma Site Web</title>
+     <link rel="stylesheet" href="PROJECT.css">
+    <script src="PROJECT.js"></script>
+</head>
+<body>
+    <div class="form-container">
+       
+            <h2>BIENVENUE LES ÉTUDIANTS</h2>
+            <label for="fname">Nom:</label>
+            <input type="text" id="fname" name="fname" placeholder="Entrer Votre Nom">
+            <label for="fname"> Prénom:</label>
+            <input type="text" id="lname" name="lname" placeholder="Entrer Votre Prénom">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Entrer Votre E-mail">
+
+            <label for="soles_arroce">Code Apogee:</label>
+            <input type="text" id="Apoge" name="Code-Apoge" placeholder="Entrer le code Apogee">
+
+            <label for="Filiere">filière:</label>
+            <select id="Filiere" name="Filiere">
+                <option id="SMI" value="SMI">SCIENCES MATHÉMATIQUES ET INFORMATIQUE(SMI)</option>
+                <option id="SMA" value="SMA">SCIENCES MATHÉMATIQUES ET APPLICATIONS(SMA)</option>
+                <option id="STU" value="STU">SCIENCES DE LA TERRE ET DE L’UNIVERS(STU)</option>
+                <option id="SMC" value="SMC">SCIENCES DE LA MATIÈRE CHIMIE(SMC)</option>
+                <option id="SVI" value="SVI">SCIENCES DE LA VIE(SVI)</option>
+               
+            </select>
+
+        
+
+            <input type="button" value="envoyer" id="sumbit" onclick="SelectFiliere()">
+       
+    </div>
+</body>
+</html>
